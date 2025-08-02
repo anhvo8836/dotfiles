@@ -31,3 +31,7 @@ alias stow="stow -v -d /home/anh/Git/dotfiles -t /home/anh ."
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 # Pacman
+alias update="yay -Syu"
+alias install="yay -S"
+alias remove="yay -Rns"
+alias pkgs="pacseek"
